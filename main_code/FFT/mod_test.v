@@ -1,0 +1,40 @@
+module mod_test(
+	CLOCK_27,
+	CLOCK_50,
+	KEY,
+	SW,
+	HEX0,
+	HEX1,
+	HEX2,
+	HEX3,
+	HEX4,
+	HEX5,
+	HEX6,
+	HEX7,
+	
+	LEDG,
+	LEDR
+);
+
+input CLOCK_27;
+input CLOCK_50;
+
+input [3:0] KEY;
+input [17:0] SW;
+
+output [6:0] HEX0;
+output [6:0] HEX1;
+output [6:0] HEX2;
+output [6:0] HEX3;
+output [6:0] HEX4;
+output [6:0] HEX5;
+output [6:0] HEX6;
+output [6:0] HEX7;
+
+output [8:0] LEDG;
+output [17:0] LEDR;
+
+ffjk jk0(SW[1], SW[2], SW[3], SW[0],SW[4],LEDG[0]);
+
+endmodule
+

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Aug 23 12:58:11 2022
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : vgalab3
+Top-level Entity Name : vgalab3
+Family : Cyclone II
+Total logic elements : 678
+    Total combinational functions : 667
+    Dedicated logic registers : 65
+Total registers : 65
+Total pins : 215
+Total virtual pins : 0
+Total memory bits : 307,200
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clock_divisor:comb_93|CLK_saida'
+Slack : -13.780
+TNS   : -1741.061
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -12.620
+TNS   : -329.161
+
+Type  : Slow Model Setup 'RomInstMem:comb_99|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -6.541
+TNS   : -6.541
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -2.519
+TNS   : -2.519
+
+Type  : Slow Model Hold 'RomInstMem:comb_99|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -2.246
+TNS   : -2.246
+
+Type  : Slow Model Hold 'clock_divisor:comb_93|CLK_saida'
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.000
+TNS   : -223.916
+
+Type  : Slow Model Minimum Pulse Width 'RomInstMem:comb_99|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -1.333
+TNS   : -43.860
+
+Type  : Slow Model Minimum Pulse Width 'clock_divisor:comb_93|CLK_saida'
+Slack : -0.500
+TNS   : -135.000
+
+Type  : Fast Model Setup 'clock_divisor:comb_93|CLK_saida'
+Slack : -6.237
+TNS   : -784.476
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -5.637
+TNS   : -113.143
+
+Type  : Fast Model Setup 'RomInstMem:comb_99|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -3.128
+TNS   : -3.128
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -1.561
+TNS   : -1.561
+
+Type  : Fast Model Hold 'RomInstMem:comb_99|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -1.006
+TNS   : -1.006
+
+Type  : Fast Model Hold 'clock_divisor:comb_93|CLK_saida'
+Slack : 0.408
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.000
+TNS   : -223.916
+
+Type  : Fast Model Minimum Pulse Width 'clock_divisor:comb_93|CLK_saida'
+Slack : -0.500
+TNS   : -135.000
+
+Type  : Fast Model Minimum Pulse Width 'RomInstMem:comb_99|altsyncram:altsyncram_component|altsyncram_mq81:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -0.318
+TNS   : -3.254
+
+------------------------------------------------------------

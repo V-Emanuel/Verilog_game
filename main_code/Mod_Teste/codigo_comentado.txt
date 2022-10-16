@@ -1,0 +1,42 @@
+LW $1, FF($0)
+SLTi $2, $1, 80
+BNE $0, $2, FD
+ADDi $3, $0, 89
+ADDi $4, $0, 92
+ADDi $5, $0, A4
+ADDi $6, $0, A1
+ADDi $7, $0, 8A
+ADDi $8, $0, 94
+ADDi $9, $0, 91
+ADDi $A, $0, A2
+ADDi $B, $0, 8B
+BEQ $1, $3, 0  
+ADDi $F, $F, 1
+J 25
+BEQ $1, $4, 0  
+ADDi $F, $F, 1
+J 25
+BEQ $1, $5, 0  
+ADDi $F, $F, 1
+J 25
+BEQ $1, $6, 0  
+ADDi $D, $D, 1
+J 25
+BEQ $1, $7, 0  
+ADDi $D, $D, 1
+J 25
+BEQ $1, $8, 0  
+ADDi $D, $D, 1
+J 25
+BEQ $1, $9, 0  
+ADDi $E, $E, 1
+J 25
+BEQ $1, $A, 0  
+ADDi $E, $E, 1
+J 25
+BEQ $1, $B, 0  
+ADDi $E, $E, 1
+SLTi $C, $1, 80
+BEQ $0, $C, FD
+J 0
+ 

@@ -1,0 +1,11 @@
+module ff_t(input t, clk,clr,pr,output reg q);
+always @ (posedge clk or negedge clr or negedge pr)
+ begin
+  if(clr==0)
+   q = 0;
+  else if(pr==0)
+   q = 0;
+  else
+   1 = t;
+end
+endmodule	
